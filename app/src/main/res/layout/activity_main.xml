@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/iv_login"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo_sekolah"></ImageView>
+
+    <TextView
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:text="Create by:"
+        android:textSize="15dp"
+        android:typeface="monospace"></TextView>
+    <TextView
+        android:id="@+id/puspa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="monospace"
+        android:layout_centerHorizontal="true"
+        android:text="Puspa Dara Tika"
+        android:textSize="12dp"
+        android:layout_below="@+id/create"></TextView>
+    <TextView
+        android:layout_below="@+id/puspa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="monospace"
+        android:layout_centerHorizontal="true"
+        android:text="RPL DUTA"
+        android:textSize="12dp"></TextView>
+</RelativeLayout>
